@@ -77,7 +77,7 @@ export default function AboutPage() {
           Ready to Capture Your Special Moments?
         </h2>
         <p className="text-gray-600 text-lg mb-6">
-          Let's make your moments timeless. Book your session with us today!
+          Lets make your moments timeless. Book your session with us today!
         </p>
         <Link
           href="/contact"
