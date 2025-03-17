@@ -9,32 +9,32 @@ const portfolioItems = [
   {
     title: "Wedding Moments",
     image:
-      "https://images.pexels.com/photos/256150/pexels-photo-256150.jpeg",
+      "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/wedding/10.jpg",
   },
   {
-    title: "Couple Shoot",
+    title: "Pre-Wedding Moments",
     image:
-      "https://images.pexels.com/photos/2959192/pexels-photo-2959192.jpeg",
+      "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/prewedding/7.jpg",
   },
   {
-    title: "Product Photography",
+    title: "Haldi Moments",
     image:
-      "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg",
+      "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/haldi/2.jpg",
   },
   {
-    title: "Event Highlights",
+    title: "Fashion Moments",
     image:
-      "https://images.pexels.com/photos/1704120/pexels-photo-1704120.jpeg",
+      "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/fashion/8.jpg",
   },
   {
-    title: "Portrait Shoot",
+    title: "Kids Moments",
     image:
-      "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+      "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/kids/4.jpg",
   },
   {
-    title: "Fashion Shoot",
+    title: "Maternity Photography",
     image:
-      "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg",
+      "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/maternity/17.jpg",
   },
 ]
 
@@ -61,7 +61,7 @@ export default function PortfolioPage() {
               alt={item.title}
               width={600}
               height={400}
-              className="object-cover w-full h-[300px] transform group-hover:scale-105 transition duration-300"
+              className="object-fill w-full h-[300px] transform group-hover:scale-105 transition duration-300"
             />
             <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-4 text-center">
               <h3 className="text-lg font-semibold">{item.title}</h3>

@@ -31,7 +31,7 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.6 }}
           >
-            Welcome to StudioName — your trusted photography studio for weddings, events, portfolios and more.
+            Welcome to Studio Name — your trusted photography studio for weddings, events, portfolios and more.
           </motion.p>
 
           <motion.div

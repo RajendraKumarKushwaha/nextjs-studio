@@ -12,6 +12,7 @@ export default function Header() {
       <div className="container mx-auto flex items-center justify-between px-4 py-4">
         {/* Logo */}
         <h1 className="text-2xl font-bold">📸 StudioName</h1>
+        {/* <img src="https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/hero/logo.png" className=" w-30" alt="logo"/> */}
 
         {/* Desktop Nav */}
         <div className="hidden md:flex flex-1 justify-center gap-6">
@@ -47,7 +48,7 @@ export default function Header() {
       {/* Slide-In Mobile Menu */}
       <div className={`fixed top-0 left-0 h-full w-64 bg-white shadow-md transform transition-transform duration-300 z-50 ${isOpen ? "translate-x-0" : "-translate-x-full"}`}>
         <div className="flex items-center justify-between px-4 py-4 border-b">
-          <h2 className="text-xl font-bold">📸 StudioName</h2>
+        <img src="https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/hero/logo.png" className=" w-30" alt="logo"/>
           <button onClick={() => setIsOpen(false)} aria-label="Close Menu">
             <X size={24} />
           </button>
