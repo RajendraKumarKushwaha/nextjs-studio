@@ -1,4 +1,4 @@
-import { Camera, Image, Users, Video, Calendar, Star } from "lucide-react"
+import { Camera, Image, Users, Video, Calendar, Star, Heart, Smile, Film, PartyPopper, MonitorPlay } from "lucide-react"
 import ServiceCard from "../clientComponent/ServiceCard"
 
 
@@ -14,29 +14,29 @@ const services = [
     icon: <Camera className="w-8 h-8 text-white" />,
   },
   {
-    title: "Event Coverage",
-    description: "From birthdays to corporate events, we cover it all with perfection.",
-    icon: <Calendar className="w-8 h-8 text-white" />,
-  },
-  {
-    title: "Portfolio Shoot",
-    description: "Professional portfolio sessions tailored to your unique style and personality.",
-    icon: <Image className="w-8 h-8 text-white" />,
-  },
-  {
     title: "Pre-Wedding Shoot",
     description: "Beautifully crafted shoots that narrate your love story.",
-    icon: <Users className="w-8 h-8 text-white" />,
+    icon: <Heart className="w-8 h-8 text-white" />,
   },
   {
-    title: "Video Production",
-    description: "Cinematic videography for weddings, events, and creative storytelling.",
-    icon: <Video className="w-8 h-8 text-white" />,
+    title: "Candid Shoot",
+    description: "Capturing spontaneous moments filled with genuine emotion.",
+    icon: <Smile className="w-8 h-8 text-white" />,
   },
   {
-    title: "Photo Editing",
-    description: "High-quality retouching and post-processing to make your photos shine.",
-    icon: <Star className="w-8 h-8 text-white" />,
+    title: "Cinematic Shoot",
+    description: "Creating stunning visual stories that evoke emotion.",
+    icon: <Film className="w-8 h-8 text-white" />,
+  },
+  {
+    title: "Event Shoot",
+    description: "Capturing the joy and connection at your special gatherings.",
+    icon: <PartyPopper className="w-8 h-8 text-white" />,
+  },
+  {
+    title: "Drone/LED Screen",
+    description: "High-quality visuals for your events and presentations.",
+    icon: <MonitorPlay className="w-8 h-8 text-white" />,
   },
 ]
 

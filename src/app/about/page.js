@@ -2,9 +2,37 @@ import Image from "next/image"
 import Link from "next/link"
 
 export const metadata = {
-  title: "About Us - StudioName",
-  description: "Learn more about our photography studio, team and journey.",
-}
+  title: "About Us | Memories World Photography Studio - Rewa",
+  description:
+    "Learn about Memories World Photography Studio in Rewa. We are passionate about capturing the most memorable moments of your life with creativity and care.",
+  keywords: [
+    "About Photography Studio Rewa",
+    "Memories World About",
+    "Best Photographers Rewa",
+    "Photography Journey Rewa",
+    "Photo Studio Team Rewa",
+    "Meet Our Photographers",
+    "Photography Experts Rewa"
+  ],
+  openGraph: {
+    title: "About Us - Memories World Photography Studio",
+    description:
+      "Memories World is a team of passionate photographers dedicated to making your moments timeless. Learn more about our story and vision.",
+    url: "https://www.memoriesworld.site/about",
+    siteName: "Memories World Photography",
+    images: [
+      {
+        url: "https://www.memoriesworld.site/about-og.jpg", // Add this image to /public
+        width: 1200,
+        height: 630,
+        alt: "About Memories World",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+};
+
 
 export default function AboutPage() {
   return (
@@ -24,18 +52,21 @@ export default function AboutPage() {
       {/* About Content */}
       <section className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center gap-10">
         <div className="w-full md:w-1/2">
-          <Image
-            src="https://images.pexels.com/photos/301977/pexels-photo-301977.jpeg"
-            alt="Studio Work"
-            width={600}
-            height={400}
-            className="rounded-xl shadow-md object-cover"
-          />
+          <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px]">
+            <Image
+              src="https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/about/rajjan.jpg"
+              alt="Studio Work"
+              fill
+              className="rounded-xl shadow-md object-fill"
+            />
+          </div>
+
+
         </div>
         <div className="w-full md:w-1/2 space-y-6">
           <h2 className="text-3xl font-semibold text-gray-800">Who We Are</h2>
           <p className="text-gray-700 leading-relaxed">
-            StudioName is a creative space where photography meets passion. From weddings to corporate events, portraits to product shoots — we blend creativity, lighting, and moments to tell your story through stunning visuals.
+            Memories world is a creative space where photography meets passion. From weddings to corporate events, portraits to product shoots — we blend creativity, lighting, and moments to tell your story through stunning visuals.
           </p>
           <p className="text-gray-700 leading-relaxed">
             Our team is made up of experienced photographers, editors, and creatives who love what they do. Every picture we take is backed with emotion and expertise.

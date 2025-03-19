@@ -2,7 +2,7 @@
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function WhatsappButton() {
-  const phoneNumber = "919179644717"; // 👈 yahan apna number daalna (country code ke saath)
+  const phoneNumber = "919131564568"; // 👈 yahan apna number daalna (country code ke saath)
 
   return (
     <a

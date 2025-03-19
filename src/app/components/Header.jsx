@@ -11,8 +11,8 @@ export default function Header() {
     <header className="w-full border-b shadow-md fixed top-0 left-0 bg-white z-50">
       <div className="container mx-auto flex items-center justify-between px-4 py-4">
         {/* Logo */}
-        <h1 className="text-2xl font-bold">📸 StudioName</h1>
-        {/* <img src="https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/hero/logo.png" className=" w-30" alt="logo"/> */}
+        {/* <h1 className="text-2xl font-bold">📸 StudioName</h1> */}
+        <img src="https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/hero/logo.png" className=" w-30" alt="logo"/>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex flex-1 justify-center gap-6">
