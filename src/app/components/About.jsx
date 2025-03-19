@@ -12,7 +12,7 @@ export default function AboutPage() {
               src="https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/about/anil.jpg"
               alt="Studio Work"
               fill
-              className="rounded-xl shadow-md object-fill"
+              className="rounded-xl shadow-md object-cover object-top"
             />
           </div>
         </div>
