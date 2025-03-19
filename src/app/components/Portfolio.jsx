@@ -19,12 +19,12 @@ const portfolioItems = [
   {
     title: "Haldi Moments",
     image:
-      "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/haldi/2.jpg",
+      "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/haldi/8.jpg",
   },
   {
     title: "Fashion Moments",
     image:
-      "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/fashion/8.jpg",
+      "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/fashion/14.jpg",
   },
   {
     title: "Kids Moments",
@@ -34,7 +34,7 @@ const portfolioItems = [
   {
     title: "Maternity Photography",
     image:
-      "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/maternity/17.jpg",
+      "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/maternity/15.jpg",
   },
 ]
 
@@ -61,7 +61,7 @@ export default function PortfolioPage() {
               alt={item.title}
               width={600}
               height={400}
-              className="object-fill w-full h-[300px] transform group-hover:scale-105 transition duration-300"
+              className="w-full h-[300px] object-cover  object-top transform group-hover:scale-105 transition duration-300"
             />
             <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-4 text-center">
               <h3 className="text-lg font-semibold">{item.title}</h3>

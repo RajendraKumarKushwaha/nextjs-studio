@@ -21,7 +21,7 @@ const galleryData = [
       "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/wedding/54.jpg",
       "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/wedding/58.jpg",
       "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/wedding/59.jpg"
-      
+
       // more...
     ],
   },
@@ -49,13 +49,29 @@ const galleryData = [
     ],
   },
   {
+    title: "Haldi Photography",
+    images: [
+      'https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/haldi/2.jpg',
+      'https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/haldi/3.jpg',
+      'https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/haldi/4.jpg',
+      'https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/haldi/5.jpg',
+      'https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/haldi/6.jpg',
+      'https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/haldi/7.jpg',
+      'https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/haldi/8.jpg',
+      'https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/haldi/9.jpg',
+      'https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/haldi/10.jpg',
+
+      // ...
+    ],
+  },
+  {
     title: "Maternity Photography",
     images: [
       "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/maternity/13.jpg",
       "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/maternity/15.jpg",
       "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/maternity/16.jpg",
       "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/maternity/17.jpg",
-    
+
       // ...
     ],
   },
@@ -66,7 +82,7 @@ const galleryData = [
       "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/kids/4.jpg",
       "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/kids/2.jpg",
       "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/kids/5.jpg",
-     
+
       // ...
     ],
   },
@@ -88,7 +104,7 @@ const galleryData = [
       "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/fashion/13.jpg",
       "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/fashion/14.jpg",
       "https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/fashion/15.jpg"
-     
+
       // ...
     ],
   },
