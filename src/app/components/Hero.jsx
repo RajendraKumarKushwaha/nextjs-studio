@@ -11,7 +11,7 @@ export default function Hero() {
         
         {/* Left Side */}
         <motion.div 
-          className="max-w-xl text-center md:text-left space-y-6"
+          className="max-w-xl text-center md:text-left space-y-6 mt-15 lg:mt-0 "
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}

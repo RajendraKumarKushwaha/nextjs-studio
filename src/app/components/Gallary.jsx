@@ -112,8 +112,8 @@ const galleryData = [
 
 export default function Gallery() {
   return (
-    <section className="w-full bg-gray-50 py-16 px-6">
-      <div className="container px-4 mx-auto">
+    <section className="w-full bg-gray-50 py-16 px-4">
+      <div className="container lg:px-4  mx-auto">
         <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
           Our Photography Gallery
         </h2>
