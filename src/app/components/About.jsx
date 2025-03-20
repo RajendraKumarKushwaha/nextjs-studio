@@ -18,7 +18,7 @@ export default function AboutPage() {
         </div>
 
         {/* Right Text */}
-        <div className="w-full md:w-1/2 space-y-6">
+        <div className="w-full md:w-1/2 space-y-6 text-center md:text-start lg:text-start">
           <h2 className="text-4xl font-bold">About Us</h2>
           <p className="text-lg text-gray-600">
             At <strong>Memories World</strong>, we specialize in capturing your most cherished moments with creativity and precision. From weddings and engagements to family portraits and commercial shoots, we bring stories to life through the lens.
