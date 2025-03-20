@@ -40,7 +40,7 @@ const portfolioItems = [
 
 export default function PortfolioPage() {
   return (
-    <main className="min-h-screen bg-white pt-20 pb-10">
+    <main className="min-h-screen bg-white  py-16">
       <section className="text-center mb-12 container">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
           Our Portfolio 🎞️
