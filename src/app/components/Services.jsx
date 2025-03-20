@@ -43,7 +43,7 @@ const services = [
 export default function ServicePage() {
   return (
     <main className="min-h-screen bg-slate-50 pt-20 pb-16">
-      <section className="text-center mb-12">
+      <section className="text-center mb-12 container">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
           Our Services 📷
         </h1>

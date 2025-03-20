@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 export default function Hero() {
   return (
-    <section className="w-full min-h-[90vh] bg-gradient-to-br from-white via-slate-100 to-slate-200 flex items-center">
+    <section className="w-full mt-15 min-h-[90vh] bg-gradient-to-br from-white via-slate-100 to-slate-200 flex items-center">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-10">
         
         {/* Left Side */}
@@ -57,7 +57,7 @@ export default function Hero() {
 
         {/* Right Side Image */}
         <motion.div
-          className="w-full max-w-md"
+          className="w-full max-w-xl"
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.8, duration: 0.6 }}

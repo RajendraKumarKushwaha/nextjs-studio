@@ -6,7 +6,7 @@ export default function AboutPage() {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-10">
 
         {/* Left Image */}
-        <div className="w-full md:w-1/2">
+        <div className="w-full max-w-xl md:w-1/2">
           <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px]">
             <Image
               src="https://memoriesimagesvideos.s3.us-east-1.amazonaws.com/images/about/anil.jpg"
