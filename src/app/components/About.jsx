@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function AboutPage() {
   return (
     <section className="w-full min-h-[80vh] py-16 bg-white text-gray-800">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-10">
+      <div className="container mx-auto px-4 flex flex-col md:flex-row  gap-10">
 
         {/* Left Image */}
         <div className="w-full max-w-xl md:w-1/2">

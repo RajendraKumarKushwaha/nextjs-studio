@@ -36,7 +36,7 @@ export const metadata = {
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen w-full bg-white pt-20 pb-10">
+    <main className="min-h-screen w-full bg-white pt-16">
       {/* Hero Section */}
       <section className="w-full bg-gradient-to-r from-slate-100 via-white to-slate-50 py-16">
         <div className="container mx-auto px-4 text-center">
@@ -50,7 +50,7 @@ export default function AboutPage() {
       </section>
 
       {/* About Content */}
-      <section className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center gap-10">
+      <section className="container mx-auto px-4 py-16 flex flex-col md:flex-row gap-10">
         <div className="w-full md:w-1/2">
           <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px]">
             <Image
@@ -63,8 +63,8 @@ export default function AboutPage() {
 
 
         </div>
-        <div className="w-full md:w-1/2 space-y-6">
-          <h2 className="text-3xl font-semibold text-gray-800">Who We Are</h2>
+        <div className="w-full md:w-1/2 space-y-6 text-center md:text-start lg:text-start">
+          <h2 className="text-3xl text-center md:text-start lg:text-start font-semibold text-gray-800">Who We Are</h2>
           <p className="text-gray-700 leading-relaxed">
             Memories world is a creative space where photography meets passion. From weddings to corporate events, portraits to product shoots — we blend creativity, lighting, and moments to tell your story through stunning visuals.
           </p>

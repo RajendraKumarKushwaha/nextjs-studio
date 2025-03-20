@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 export default function Hero() {
   return (
     <section className="w-full mt-15 min-h-[90vh] bg-gradient-to-br from-white via-slate-100 to-slate-200 flex items-center">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-10">
+      <div className="container mx-auto px-4 flex flex-col md:flex-row  justify-between gap-10">
         
         {/* Left Side */}
         <motion.div 

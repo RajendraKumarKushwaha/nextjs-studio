@@ -36,5 +36,9 @@ export const metadata = {
   };
   
 export default function ServicePage(){
-    return <Services/>
+    return( 
+    <div className="pt-16">
+    <Services/>
+    </div>
+    )
 }

@@ -34,5 +34,9 @@ export const metadata = {
   };
   
 export default function Portfolio(){
-    return <PortfolioPage/>
+    return (
+    <div className="pt-16">
+    <PortfolioPage/>
+    </div>
+    )
 }
