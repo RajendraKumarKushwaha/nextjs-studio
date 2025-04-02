@@ -13,7 +13,7 @@ export const metadata = {
   },
   keywords: [
     "best Studio in Rewa",
-    "best Photography Stuid in Rewa",
+    "best Photography Stuidio in Rewa",
     "Photography Studio Rewa",
     "Wedding Photographer Rewa",
     "Pre-wedding Shoot Rewa",

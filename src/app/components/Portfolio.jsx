@@ -41,8 +41,8 @@ const portfolioItems = [
 export default function PortfolioPage() {
   return (
     <main className="min-h-screen bg-white  py-16">
-      <section className="text-center mb-12 container">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+      <section className="text-center mb-12 container mx-auto px-4">
+        <h1 className="text-4xl md:text-5xl text-center font-bold text-gray-800 mb-4">
           Our Portfolio 🎞️
         </h1>
         <p className="text-gray-600 text-lg max-w-2xl mx-auto">
